@@ -1,0 +1,1 @@
+netsh advfirewall firewall add rule name="block high risk port" protocol=TCP dir=in localport=23,135,137-139,445,3389 action=block
